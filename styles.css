@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #1D4ED8;
+    --primary-color: #426dca;
     --dark-gray: #374151;
     --medium-gray: #4B5563;
     --off-white: #E5E7EB;  
@@ -34,6 +34,7 @@ body {
 
 .link-primary {
     background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .link-secondary {
@@ -69,7 +70,7 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    margin: 0.5rem 1rem;
+    /* margin: 0.5rem 1rem; */
     /* border-radius: 0.5rem; */
     border-bottom-left-radius: 2rem;
 }
@@ -114,7 +115,8 @@ section>h3 {
 
 
 .section{
-    padding: 5rem;
+    padding: 3rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -135,6 +137,20 @@ section>h3 {
 
 .footer__links{
     margin: auto;
+}
+
+.project{
+    margin-top: 2rem;
+}
+
+.project__li{
+    
+    border: 0.3rem solid var(--dark-gray);
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+    max-width: 40rem;
+    margin: auto;
+    margin-bottom: 3rem;
 }
 
 
