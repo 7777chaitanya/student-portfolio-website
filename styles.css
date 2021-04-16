@@ -34,3 +34,44 @@ body{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+hr{
+    margin: 3rem 0rem;
+}
+
+.list__non-bullet{
+    list-style: none;
+}
+
+.list__item{
+    display: inline;
+
+
+    
+}
+
+.links{
+    text-decoration: none;
+    color:white;
+    margin: 1rem 0.5rem;
+
+}
+
+.navigation__list-div{
+    text-align: right;
+    padding: 0.5rem 1rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    margin: 0.5rem 1rem;
+    /* border-radius: 0.5rem; */
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation__div{
+    font-weight: bold;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+}
+

@@ -28,3 +28,11 @@ css notes - copy back in notebook
 - css box model - google- remmber as MBPC(margin, border, padding, content)
 
 - css units - rem(relative to the font size of the root element),px,etc..
+
+- center container -> set max-width and set margin: auto
+
+- BEM naming convention for CSS
+
+- display: inline
+
+- <ol reversed> - reverse an ordered list

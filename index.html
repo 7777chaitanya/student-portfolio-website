@@ -50,21 +50,21 @@
     <h2>@lists</h2>
 
     <h3>Unordered list</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+    <ul class="list__non-bullet">
+        <li class="list__item">Item One</li>
+        <li class="list__item">Item Two</li>
+        <li class="list__item">Item Three</li>
     </ul>
 
     <h3>Unordered Inline List</h3>
-    <ul>
+    <ul class="list__non-bullet">
         <li>Inline Item One</li>
         <li>Inline Item Two</li>
         <li>Inline Item Three</li>
     </ul>
 
     <h3>Reverse Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Egg</li>
         <li>Bread</li>
@@ -74,13 +74,16 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">product</a></li>
-            <li><a href="">about</a></li>
+    <nav class="navigation">
+        <div class="navigation__div">iAmBrand</div>
+        <div class="navigation__list-div">
+        <ul class="list__non-bullet">
+            <li class="list__item"><a class="links" href="">home</a></li>
+            <li class="list__item"><a class="links" href="">product</a></li>
+            <li class="list__item"><a class="links" href="">about</a></li>
         </ul>
+        </div>
+        </div>
     </nav>
 
     <hr>
