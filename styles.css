@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-:root{
+:root {
     --primary-color: #1D4ED8;
     --dark-gray: #374151;
     --medium-gray: #4B5563;
+    --off-white: #E5E7EB;  
     /* --primary-color: red; */
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;  
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0rem;
 }
 
-.container{
+.container {
     padding: 0rem 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 36rem;
     margin: auto;
+    text-align: center;
 }
 
 .link{
@@ -26,77 +29,114 @@ body{
     color: white;
     /* background-color: var(--primary-color); */
     border-radius: 0.5rem;
+    font-size: 0.8rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
 }
 
-.link-secondary{
+.link-secondary {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
 
-hr{
+hr {
     margin: 3rem 0rem;
 }
 
-.list__non-bullet{
+.list__non-bullet {
     list-style: none;
 }
 
 .list__item{
     display: inline;
-
-
-    
 }
 
-.links{
+.links {
     text-decoration: none;
-    color:white;
+    color: white;
     margin: 1rem 0.5rem;
+    font-size: 0.8rem;
+
 
 }
 
-.navigation__list-div{
+.navigation__list-div {
     text-align: right;
     padding: 0.5rem 1rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     margin: 0.5rem 1rem;
     /* border-radius: 0.5rem; */
     border-bottom-left-radius: 2rem;
 }
 
-.navigation__div{
+.navigation__div {
     font-weight: bold;
     padding: 1rem 1rem;
     font-size: 1.5rem;
 }
 
 /* @header */
-.hero{
+.hero {
     padding: 2rem;
-    
+
 }
 
-.hero__image{
+.hero__image {
     max-width: 21rem;
     margin: auto;
-    display:block;
-    
+    display: block;
+
 }
 
-.hero__heading{
+.hero__heading {
     color: var(--medium-gray);
     margin-top: 1rem;
     text-align: center;
 }
 
-.hero__span{
+
+
+.hero__span {
     color: var(--primary-color);
 }
+
+section>h1,
+section>h2,
+section>h3 {
+    text-align: center;
+}
+
+
+
+.section{
+    padding: 5rem;
+
+}
+
+.section__offwhite{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 2rem;
+}
+
+.footer__header{
+    margin-bottom: 2rem;
+}
+
+.footer__links{
+    margin: auto;
+}
+
+
+
 
