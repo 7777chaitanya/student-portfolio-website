@@ -36,3 +36,5 @@ css notes - copy back in notebook
 - display: inline
 
 - <ol reversed> - reverse an ordered list
+
+- center image -> set max-width, display: block,margin: auto;   

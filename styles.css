@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #1D4ED8;
+    --dark-gray: #374151;
+    --medium-gray: #4B5563;
     /* --primary-color: red; */
 }
 
@@ -73,5 +75,28 @@ hr{
     font-weight: bold;
     padding: 1rem 1rem;
     font-size: 1.5rem;
+}
+
+/* @header */
+.hero{
+    padding: 2rem;
+    
+}
+
+.hero__image{
+    max-width: 21rem;
+    margin: auto;
+    display:block;
+    
+}
+
+.hero__heading{
+    color: var(--medium-gray);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.hero__span{
+    color: var(--primary-color);
 }
 
